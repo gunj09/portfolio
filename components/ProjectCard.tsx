@@ -4,8 +4,6 @@ import {motion} from 'framer-motion'
 
 interface Props {
     image: string;
-    title: string;
-    text: string;
 }
 
 const ProjectCard = ({ image, title, text}: Props) => {
