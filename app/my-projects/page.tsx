@@ -19,8 +19,6 @@ const Page = () => {
               className="transition-transform transform hover:scale-105"
             >
               <ProjectCard
-                title={project.title}
-                text={project.text}
                 image={project.src}
               />
             </a>
