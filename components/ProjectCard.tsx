@@ -6,7 +6,7 @@ interface Props {
     image: string;
 }
 
-const ProjectCard = ({ image, title, text}: Props) => {
+const ProjectCard = ({ image}: Props) => {
     const [isFlipped, setIsFlipped] = useState(false)
     const [isAnimating, setIsAnimating] = useState(false)
 
